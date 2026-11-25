@@ -1,0 +1,8 @@
+{
+  "games": {
+    "my-private-game": "Optional private game repository under your GAME_HUD_UI_WORKSPACE."
+  },
+  "threejs": {
+    "my-threejs-experiments": "Optional local Three.js repository under GAME_HUD_UI_THREEJS_ROOT."
+  }
+}

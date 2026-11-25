@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Risky Game HUD Fixture</title>
+  <style>
+    .hud-overlay {
+      position: fixed;
+      inset: 0;
+      font-size: 9px;
+      animation: pulse 1s infinite;
+    }
+    .card-a { backdrop-filter: blur(8px); }
+    .card-b { backdrop-filter: blur(8px); }
+    .card-c { backdrop-filter: blur(8px); }
+    .card-d { backdrop-filter: blur(8px); }
+    @keyframes pulse {
+      0% { opacity: 0.6; }
+      100% { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <div class="hud-overlay">
+    <img src="crest.png" />
+    <button type="button">SECRET_HUD_COPY_DO_NOT_ECHO</button>
+  </div>
+</body>
+</html>

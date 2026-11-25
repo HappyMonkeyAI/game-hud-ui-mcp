@@ -1,0 +1,15 @@
+# Python / packaging
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# Local agent state & overrides
+.agent/memories/history/
+.agent/memories/private/
+*.local.json
+*.local.md
